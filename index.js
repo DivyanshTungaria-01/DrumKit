@@ -43,14 +43,17 @@ function makeSound(key) {
         case "j":
             var snare = new Audio("sounds/snare.mp3");
             snare.play();
+            break;
 
         case "k":
             var crash = new Audio("sounds/crash.mp3");
             crash.play();
+            break;
 
         case "l":
             var kickDrum = new Audio("sounds/kick-bass.mp3");
             kickDrum.play();
+            break;
 
         default:
             console.log(buttonInnerHTML);   
