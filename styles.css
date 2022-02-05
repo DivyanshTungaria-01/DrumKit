@@ -1,6 +1,11 @@
 body {
   text-align: center;
   background-color: #283149;
+  background-image: url(images/pic.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 h1 {
@@ -46,7 +51,7 @@ footer {
 }
 
 .set {
-  margin: 10% auto;
+  margin: 8% auto;
 }
 
 .game-over {
@@ -55,8 +60,9 @@ footer {
 }
 
 .pressed {
-  box-shadow: 0 3px 4px 0 #DBEDF3;
-  opacity: 0.5;
+  /* box-shadow: 0 3px 4px 0 #DBEDF3; */
+  box-shadow: 0px 0px 50px  #000428;
+  opacity: 1;
 }
 
 .red {
@@ -79,4 +85,21 @@ footer {
   text-align: center;
   margin: 10px;
   background-color: white;
+}
+
+p{
+  margin-bottom: 4rem;
+}
+
+.link{
+  color: antiquewhite;
+  font-family: cursive;
+  font-size: 1.5rem;
+}
+
+.linkanimate{
+  color:black;
+  font-size: 2rem;
+  text-shadow: 1px 1px 3px red;
+  line-height: 2rem;
 }

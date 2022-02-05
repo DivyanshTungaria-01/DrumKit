@@ -68,8 +68,15 @@ function buttonAnimation(currentKey){
 
     setTimeout(function() {
         activeButton.classList.remove("pressed");
-    },100); 
+    },200); 
 
 }
 
+document.querySelector("a").addEventListener("mouseenter",function(){
+    document.querySelector("a").classList.add("linkanimate")
+});
+
+document.querySelector("a").addEventListener("mouseleave",function(){
+    document.querySelector("a").classList.remove("linkanimate")
+});
 
